@@ -2,17 +2,18 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro contador, limite, resultado
-
-		contador = 0
-		limite = 10
-
+		cadeia nome [3]
+		inteiro contador =0
+		
+		nome[0] = "Afonso"
+		nome[1] = "Henriques"
+		nome[2] = "Silva"
+				
 		faca{
-			resultado = 5 * contador
-			escreva ("5 *"+ contador + "="+ resultado+ "\n")
+			escreva (nome[contador]+ " ")
 			contador ++
 						
-		}enquanto (contador<=limite)
+		}enquanto (contador<=2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 252; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
