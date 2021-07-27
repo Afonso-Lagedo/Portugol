@@ -2,18 +2,14 @@ programa
 {
 	funcao inicio()
 	{
-		cadeia nome [3]
+		cadeia nome [][]={{"Afonso", "1º"},{"Silva","2º"}}
 		inteiro contador =0
-		
-		nome[0] = "Afonso"
-		nome[1] = "Henriques"
-		nome[2] = "Silva"
-				
+						
 		faca{
-			escreva (nome[contador]+ " ")
+			escreva (" "+nome[contador][0]+" position:" + nome[contador][1])
 			contador ++
 						
-		}enquanto (contador<=2)
+		}enquanto (contador<=1)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 244; 
+ * @POSICAO-CURSOR = 171; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
