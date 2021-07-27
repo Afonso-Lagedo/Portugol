@@ -1,28 +1,18 @@
 programa
 {
-	
-	funcao inicio()
+	funcao inicio()
 	{
-		escreva("Escolha o desenho 1= DBZ, 2= One Piece, 3= naruto"+"\n")
-		inteiro valor =0
-		leia (valor)
+		inteiro contador, limite, resultado
 
-		escolha (valor)
-		{
-			caso 1:
-			escreva("Muito bom")
-			pare
-			caso 2:
-			escreva("Top")
-			pare
-			caso 3:
-			escreva("Ruim")
-			pare
+		contador = 0
+		limite = 10
 
-			caso contrario:
-			escreva ("Desenho inexistente")
-		}
-		
+		faca{
+			resultado = 5 * contador
+			escreva ("5 *"+ contador + "="+ resultado+ "\n")
+			contador ++
+						
+		}enquanto (contador<=limite)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 339; 
+ * @POSICAO-CURSOR = 252; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
